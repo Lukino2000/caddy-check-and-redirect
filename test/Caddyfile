@@ -1,0 +1,10 @@
+http://*.localhost:8080 {
+	@dom host dom.localhost
+	handle @dom {
+		check_and_redirect {
+			file test/site.urls
+			status 302
+			schedule 1
+		}
+	}
+}

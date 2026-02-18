@@ -8,6 +8,7 @@ caddy
 
 # Build output
 cmd/caddy/caddy
+cmd/caddy/caddy.exe
 
 # Go workspace
 go.work
